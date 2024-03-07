@@ -37,8 +37,8 @@ def display_bedwars_stats(stats):
     print("Beds Broken: {}".format(stats.get('beds_broken_bedwars', 0)))
 
 if __name__ == "__main__":
-    # Replace 'YOUR_API_KEY' with your actual Hypixel API key
-    api_key = 'YOUR_API_KEY'
+    # This can be replaced with your own API key as well
+    api_key = 'd64ff240-30a7-4969-84f8-3fa98020ee01'
     player_name = input("Enter the Minecraft player name: ")
 
     bedwars_stats = get_bedwars_stats(api_key, player_name)
